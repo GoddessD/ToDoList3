@@ -9,11 +9,13 @@ import { Input } from "./input.jsx"
 //create your first component
 const Home = () => {
 	return (
-		<div className="container">
-			<h1 className="text"> todos </h1>
-			<Input className="input"/>
-			<item />
-			<itemsleft />
+		<div className="center">
+			<h1 className="text-center"> todos </h1>
+			<div className="container">
+				<Input className="input" />
+				<Item />
+				<Itemsleft />
+			</div>
 		</div>
 	)
 }

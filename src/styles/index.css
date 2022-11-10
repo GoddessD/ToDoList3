@@ -1,5 +1,5 @@
 .center .h1 {
-    display: flexbox ;
+display: flexbox ;
 width: 100%;
 margin: 0 auto;
 justify-content: center;
@@ -9,7 +9,7 @@ padding: 20px 0;
 
 .container{
     display:flex;
-    width:80%;
+    width:100%;
     margin:0 auto;
     justify-content: center;
     align-items: center;
@@ -17,5 +17,9 @@ padding: 20px 0;
 }
 
 input{
-    width:50%;
+    width:100%;
+    display:flex;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
 }
